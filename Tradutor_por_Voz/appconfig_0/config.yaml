@@ -1,0 +1,137 @@
+devices:
+    common:
+    - /dev/snd
+    debug: []
+    release: []
+dockercomposefile:
+    common: docker-compose.yml
+    debug: ''
+    release: ''
+extraparms:
+    common: {}
+    debug: {}
+    release: {}
+id: 690b935e-27ec-472e-b411-689fac69e49b
+images:
+    debug: sha256:970376d40b6b9cda7a7e51aff1c65fe10d2239d3824c2e1679ab9bdaa267d854
+    release: ''
+imagetags:
+    debug: qt_project_arm64v8-debian-python3-qt-vivante_bullseye_debug_690b935e-27ec-472e-b411-689fac69e49b
+    release: qt_project_arm64v8-debian-python3-qt-vivante_bullseye_release_690b935e-27ec-472e-b411-689fac69e49b
+modificationdate: '2022-11-15T16:28:39.312918'
+networks:
+    common: []
+    debug: []
+    release: []
+otapackagename: ''
+otapackageversion: 1.0.0
+platformid: arm64v8-debian-python3-qt-vivante_bullseye
+ports:
+    common: {}
+    debug: {}
+    release: {}
+privatekey: '-----BEGIN RSA PRIVATE KEY-----
+
+    MIIEogIBAAKCAQEA47V8CKcP8Tl90q7EWtExCsqUjxhxgRMrP0m+e36SaHXiD7UJ
+
+    lqz+wV/Y+uRjaz8TBwp4LoT/XW/iAJdNmno6qEKmxF5muaDqO8V92D0Q4Yf5wFoA
+
+    SAvZvYhomVCegwFNbb5La2teeOm5dnon1h+/B+eoQ+pDqK/Taek9jTrvTLfbu6g9
+
+    pmYi/WM8sp+Vio5ShyyYGm+dA6FTsAwSqrlCJv5oZ/zyn5pFk2i7yI54wN0cbxGg
+
+    kuKNqAr9AsarSmnhKAU7h0RJG1vCbERkjVAg4+qbDpzEzTFw3iOY8sOb7SSjri7u
+
+    Mw2uqm42Y4xR77QeJJQe7irFW3jMfbNYHLwZkQIDAQABAoIBADXpFcCGrQOTdPKY
+
+    ZeyKcm33oExwoQ7KFwcY0nwybz9ECY1mcyq1Mmtd4eUkhVUyzbJxDBsXac4ZWwyA
+
+    xeK45YJIpWsAXpm8OziDfVPgwUpkAwFDTaXBCIAS95C0wZKKkGZXE0wPU4KU80/V
+
+    g/Dx+yxH8FKD+BjL5+W/Ts9NELK8smT4/86Bz8ISybyfJZFUK7d4FWdUsQ9JjUdL
+
+    UR2XOIzzLhdRb6acbD5cp9GL26POwEUv2w2ipFqZvfmQmrsetkSk0IGvYAhvw8Tz
+
+    2aTUQ2KyX+/oax9BbYHj8ovJs4QEgx/x+QEcAHOVTKYmMkRuBoL4CsobjhLqk++6
+
+    uAUaWkECgYEA6HGhVh1pxn755CGiyCz2H4qZAD7luAZ+YeenYQDp9SdM7qkUVnWn
+
+    TMHY+o48hprKR7xsw+l3lmi1F93lHrPZPA+pI0nvqqoBFt9Y2GhLbP2TbCtkp2fy
+
+    XL+YXxcwnHRd7/Z/Byog55MhRdBhUcIutT4uS9XA5wB5qUOCq6j+Ag0CgYEA+skD
+
+    l31X/i/Vc4Cr/IuQuW1eHyjq9/8B3vW5GLwV0MpwSXYOcWW9mYo0YTuUUZXEGIsL
+
+    SM4mXNyBHP0K7I0rcxSc8z2HzcPrQ8rUvGBzHHSIoxHOiV73uVHMjiO0RYgWPegL
+
+    W5mBo8owGHIfcce/903Fn1GX/z8zjsNrN3GGiJUCgYAaao+DUeRrgpKzsn7lcPan
+
+    rwCkXoGM4HAMgF8tTwVHrye3F9AP418YAg++qduHEKBcdrWFrkrA9TVfeQBI9PeD
+
+    M+Rs9kIeiyOEje1y6qdnw4m1iVjvDYklsUCHzgLgRPlIBCN7lPYYW0g0vvHQcNkO
+
+    D/sC80/w8MTiz6FSEOqNIQKBgEZuyilztJDZElO8IZFuCRlq0/JgZY18+yOJU5DU
+
+    0jOvh1W6aFgEwPksTYW5W/CF5WsXMfYin7eY3lIr5zOEel15vpK6BzgM/Dgv8Qtu
+
+    8yVcvTs/NwhxuZU8mfyZnnmgvM5qKzZwqG49zMAw3Q/xj8J+/y+9lLjFIU/JJoWN
+
+    xsD5AoGABCcPftNNBHC3CfXeQNpFk2MRbyBVQLM3Io1eINiRgKtZKV28SJTbfTZZ
+
+    KJnthK+uJ2DHyPuoXX178JZrsNcl6XlllhzRQsYyICW07nTIQUJuD65Jan1gZUxO
+
+    nPnTT+CvaBUyoiFdqdabVIPm673hSrV84CHkNwLB6spsnrDPHPw=
+
+    -----END RSA PRIVATE KEY-----
+
+    '
+props:
+    common:
+        appargs: ''
+        appname: qt_project
+        arg: ''
+        buildcommands: ''
+        buildfiles: ''
+        command: ''
+        devpackages: libasound2-dev:#%platform.debian-arch%#
+        env: ''
+        expose: ''
+        extrapackages: libasound2 alsa-utils python3-pyaudio python3-gi flac libespeak1
+        language: python
+        main: main.py
+        preinstallcommands: ''
+        runtime: python3
+        sdkpostinstallcommands: ''
+        sdkpreinstallcommands: ''
+        targetcommands: ''
+        targetfiles: ''
+    debug:
+        arg: 'ARG SSHUSERNAME=#%application.username%#
+
+            '
+    release: {}
+publickey: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDjtXwIpw/xOX3SrsRa0TEKypSPGHGBEys/Sb57fpJodeIPtQmWrP7BX9j65GNrPxMHCnguhP9db+IAl02aejqoQqbEXma5oOo7xX3YPRDhh/nAWgBIC9m9iGiZUJ6DAU1tvktra1546bl2eifWH78H56hD6kOor9Np6T2NOu9Mt9u7qD2mZiL9Yzyyn5WKjlKHLJgab50DoVOwDBKquUIm/mhn/PKfmkWTaLvIjnjA3RxvEaCS4o2oCv0CxqtKaeEoBTuHREkbW8JsRGSNUCDj6psOnMTNMXDeI5jyw5vtJKOuLu4zDa6qbjZjjFHvtB4klB7uKsVbeMx9s1gcvBmR
+sdkimages:
+    debug: ''
+    release: ''
+sdkimagetags:
+    debug: ''
+    release: ''
+sdksshaddress:
+    debug: null
+    release: null
+shutdownscript:
+    common: ''
+    debug: ''
+    release: ''
+startupscript:
+    common: ''
+    debug: ''
+    release: ''
+username: torizon
+volumes:
+    common:
+        /home/torizon/etc/asound.config: /etc/asound.config
+    debug:
+        /home/torizon/qt_project: /qt_project,rw
+    release: {}
